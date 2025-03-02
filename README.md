@@ -81,7 +81,7 @@ NVIDIA GPUをお持ちでも、上記コマンドでエラーが出る場合はC
 3. 展開したフォルダ内の`bin`ディレクトリをシステム環境変数のPATHに追加
 4. コマンドプロンプトを再起動し、`ffmpeg -version`で正常にインストールされたか確認
 
-**💡 どれをダウンロードすればいいのか迷ったら**: Windows builds by BtbN をクリックして、Assetsの中から`ffmpeg-n7.1-latest-win64-gpl-7.1.zip`をダウンロードすればOKです（7.1の部分はバージョン番号）。
+**💡 どれをダウンロードすればいいのか迷ったら**: Windows builds by BtbN をクリックして、Assetsの中から`ffmpeg-n7.1-latest-win64-lgpl-7.1.zip`をダウンロードすればOKです（7.1の部分はバージョン番号）。
 
 **macOS** (Homebrewを使用):
 ```bash
@@ -197,6 +197,20 @@ ffmpeg -version
 ### 🔖 openai-whisper v20240930
 ホームページ： https://github.com/openai/whisper  
 ライセンス： MIT License
+
+### 🔖 PyTorch
+ホームページ： https://pytorch.org/  
+ライセンス： BSD-3-Clause License
+
+## 💎 必要な外部ソフトウェア
+
+### 🔖 FFmpeg
+ホームページ： https://ffmpeg.org/  
+ライセンス： GNU Lesser General Public License (LGPL) v2.1
+
+### 🔖 NVIDIA CUDA Toolkit (GPU利用時のみ)
+ホームページ： https://developer.nvidia.com/cuda-toolkit  
+ライセンス： NVIDIA CUDA Toolkit License Agreement
 
 ## 💎 ライセンス
 
